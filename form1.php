@@ -22,6 +22,7 @@ $coordinatoremail = $_POST["coordinatoremail"];
 $date = $_POST["date"];
 
 //echo '($Dedutrustname, $educationalname, $educationaladdress, $location, $educationalcontact, $educationalmobile, $educationalemail, $presidentname, $presidentcontact, $Presidentmobile, $presidentemail, $secretaryname, $secretarycontact, $secretarymobile, $secretaryemail, $coordinatorname, $coordinatorcontact, $coordinatormobile, $coordinatoremail, $date)';
+
     $sql = "INSERT INTO `pofoma1` (`Dedutrustname`, `educationalname`, `educationaladdress`, `location`, `educationalcontact`, `educationalmobile`, `educationalemail`, `presidentname`, `presidentcontact`, `Presidentmobile`, `presidentemail`, `secretaryname`, `secretarycontact`, `secretarymobile`, `secretaryemail`, `coordinatorname`, `coordinatorcontact`,`coordinatormobile`, `coordinatoremail`, `date`)
     VALUES ('$Dedutrustname', '$educationalname', '$educationaladdress', '$location', '$educationalcontact', '$educationalmobile', '$educationalemail', '$presidentname', '$presidentcontact', '$Presidentmobile', '$presidentemail', '$secretaryname', '$secretarycontact', '$secretarymobile', '$secretaryemail', '$coordinatorname', '$coordinatorcontact', '$coordinatormobile', '$coordinatoremail', '$date')
     ON DUPLICATE KEY UPDATE
@@ -59,8 +60,10 @@ if($rs)
 
     // Title and heading
  $pdf->SetFont ("Arial", "B", 16); 
+ 
  $pdf->Cell (0, 10, "Profoma submitted for the establishment of P.A Inamdar Computer Lab",0,1, 'C');
- $pdf->Cell (0, 10, "Proforma No.3",0,1, 'C');
+
+ $pdf->Cell (0, 10, "Proforma No.1",0,1, 'C');
 
 // Trust Details
  $pdf->Cell (0, 10, "Trust Details", 0, 1, 'C');
@@ -137,10 +140,12 @@ $pdf->Cell (0, 50, "$date", 0, 1, 'R');
  $pdf->output();
 
  $pdf->AddPage();
- if(isset($_POST['submit'])) {
 
+ if(isset($_POST['submit'])) {
+    
     header("Location: form2.html");
     exit;
    }
 }
 ?>
+
