@@ -139,9 +139,7 @@ $pdf->Cell (0, 50, "$date", 0, 1, 'R');
  $pdf->AddPage();
  
     header("Location: form2.html");
-    //what is freeuse?
+    
     exit;
    }
-
 ?>
-
