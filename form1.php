@@ -116,9 +116,14 @@ $pdf->Cell (0, 10, "$secretarymobile", 1, 1, 'L');
 $pdf->Cell (20, 10, "Email:", 1, 0, 'C');
 $pdf->Cell (0, 10, "$secretaryemail", 1, 1, 'L');
 //Hon.Secretary Details Ended
- 
+
+
+
+
+
 //  Coordinator With PAI-ICT Academy Pune Details Start
 //heading start
+
 $pdf->SetFont ("Arial", "B", 16); // 16 font for the heading and "B" for Bold
 $pdf->Cell (0, 10, "", 0, 1, 'C');
 $pdf->Cell (0, 10, "Coordinator With PAI-ICT Academy Pune Details", 0, 1, 'C');
