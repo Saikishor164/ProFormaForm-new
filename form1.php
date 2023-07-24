@@ -117,10 +117,6 @@ $pdf->Cell (20, 10, "Email:", 1, 0, 'C');
 $pdf->Cell (0, 10, "$secretaryemail", 1, 1, 'L');
 //Hon.Secretary Details Ended
 
-
-
-
-
 //  Coordinator With PAI-ICT Academy Pune Details Start
 //heading start
 
