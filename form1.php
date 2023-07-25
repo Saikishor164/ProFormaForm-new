@@ -99,6 +99,7 @@ if($rs)
  $pdf->Cell (0, 10, "$presidentemail", 1, 1, 'L');
 //president/Chairman Details Ended
 
+
 //  Hon.Secretary Details Start
 //heading start
 $pdf->SetFont ("Arial", "B", 16); // 16 font for the heading and "B" for Bold
