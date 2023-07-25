@@ -142,7 +142,6 @@ $pdf->Cell (0, 50, "$date", 0, 1, 'R');
  $pdf->AddPage();
 
  if(isset($_POST['submit'])) {
-    
     header("Location: form2.html");
     exit;
    }
