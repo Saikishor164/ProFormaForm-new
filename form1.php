@@ -137,7 +137,6 @@ $pdf->Cell (0, 10, "$coordinatoremail", 1, 1, 'L');
 //Coordinator With PAI-ICT Academy Pune Details Ended
 
 $pdf->Cell (0, 50, "$date", 0, 1, 'R');
-
  $pdf->output();
 
  $pdf->AddPage();
