@@ -123,7 +123,7 @@ $pdf->Cell (0, 10, "$secretaryemail", 1, 1, 'L');
 $pdf->SetFont ("Arial", "B", 16); // 16 font for the heading and "B" for Bold
 $pdf->Cell (0, 10, "", 0, 1, 'C');
 $pdf->Cell (0, 10, "Coordinator With PAI-ICT Academy Pune Details", 0, 1, 'C');
-//heading ended
+   //heading ended
 
 $pdf->SetFont ("Arial", "", 12); // 12 font fot the table design remove B for Bold
 $pdf->Cell (110, 10, "Name of the Coordinator With PAI-ICT Academy Pune: ", 1, 0, 'L');
@@ -148,4 +148,5 @@ $pdf->Cell (0, 50, "$date", 0, 1, 'R');
     exit;
    }
 }
+
 ?>
