@@ -3,9 +3,9 @@
 $email = $_POST['email'];
 $password = $_POST['password'];
 
+
 session_start();
 // Perform your login verification process here (e.g., query the database)
-
 
 
 /***************************** DATABASE CONNECTION *****************************/
@@ -14,6 +14,8 @@ $hostname = 'localhost';
 $username = 'root';
 $password = '';
 $database = 'proforma';
+
+
 
 // Create a database connection
 $connection = mysqli_connect($hostname, $username, $password, $database);
