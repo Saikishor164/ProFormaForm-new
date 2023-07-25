@@ -5,9 +5,10 @@ $password = $_POST['password'];
 
 session_start();
 // Perform your login verification process here (e.g., query the database)
-// ...
 
 
+
+/***************************** DATABASE CONNECTION *****************************/
 // Database connection configuration
 $hostname = 'localhost';
 $username = 'root';
