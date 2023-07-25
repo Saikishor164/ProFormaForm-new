@@ -7,6 +7,7 @@ session_start();
 // Perform your login verification process here (e.g., query the database)
 // ...
 
+
 // Database connection configuration
 $hostname = 'localhost';
 $username = 'root';
