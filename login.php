@@ -16,7 +16,6 @@ $password = '';
 $database = 'proforma';
 
 
-
 // Create a database connection
 $connection = mysqli_connect($hostname, $username, $password, $database);
 
