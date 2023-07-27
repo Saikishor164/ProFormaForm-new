@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -45,6 +43,8 @@
       </li>
     </ul>
   </div>
-</nav> 
+</nav>
 
-<!--  -->
+
+
+<?PHP ?>
